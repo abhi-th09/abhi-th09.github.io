@@ -1520,7 +1520,7 @@ pre {
 
 .table .thead-light th {
   color: #495057;
-  background-color: #e9ecef;
+  background-color: #ecedef;
   border-color: #dee2e6; }
 
 .table-dark {
@@ -1628,7 +1628,7 @@ pre {
     color: #6c757d;
     opacity: 1; }
   .form-control:disabled, .form-control[readonly] {
-    background-color: #e9ecef;
+    background-color: #ecedef;
     opacity: 1; }
 
 select.form-control:focus::-ms-value {
@@ -2674,7 +2674,7 @@ input[type="button"].btn-block {
   height: 0;
   margin: 0.5rem 0;
   overflow: hidden;
-  border-top: 1px solid #e9ecef; }
+  border-top: 1px solid #ecedef; }
 
 .dropdown-item {
   display: block;
@@ -2925,7 +2925,7 @@ input[type="button"].btn-block {
   color: #495057;
   text-align: center;
   white-space: nowrap;
-  background-color: #e9ecef;
+  background-color: #ecedef;
   border: 1px solid #ced4da;
   border-radius: 0.25rem; }
   .input-group-text input[type="radio"],
@@ -3016,7 +3016,7 @@ input[type="button"].btn-block {
   .custom-control-input:disabled ~ .custom-control-label {
     color: #6c757d; }
     .custom-control-input:disabled ~ .custom-control-label::before {
-      background-color: #e9ecef; }
+      background-color: #ecedef; }
 
 .custom-control-label {
   position: relative;
@@ -3134,7 +3134,7 @@ input[type="button"].btn-block {
     background-image: none; }
   .custom-select:disabled {
     color: #6c757d;
-    background-color: #e9ecef; }
+    background-color: #ecedef; }
   .custom-select::-ms-expand {
     display: none; }
 
@@ -3171,7 +3171,7 @@ input[type="button"].btn-block {
     -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); }
   .custom-file-input:disabled ~ .custom-file-label {
-    background-color: #e9ecef; }
+    background-color: #ecedef; }
   .custom-file-input:lang(en) ~ .custom-file-label::after {
     content: "Browse"; }
   .custom-file-input ~ .custom-file-label[data-browse]::after {
@@ -3203,7 +3203,7 @@ input[type="button"].btn-block {
     line-height: 1.5;
     color: #495057;
     content: "Browse";
-    background-color: #e9ecef;
+    background-color: #ecedef;
     border-left: inherit;
     border-radius: 0 0.25rem 0.25rem 0; }
 
@@ -3376,7 +3376,7 @@ input[type="button"].btn-block {
     border-top-left-radius: 0.25rem;
     border-top-right-radius: 0.25rem; }
     .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
-      border-color: #e9ecef #e9ecef #dee2e6; }
+      border-color: #ecedef #ecedef #dee2e6; }
     .nav-tabs .nav-link.disabled {
       color: #6c757d;
       background-color: transparent;
@@ -3974,7 +3974,7 @@ input[type="button"].btn-block {
   padding: 0.75rem 1rem;
   margin-bottom: 1rem;
   list-style: none;
-  background-color: #e9ecef;
+  background-color: #ecedef;
   border-radius: 0.25rem; }
 
 .breadcrumb-item + .breadcrumb-item {
@@ -4015,7 +4015,7 @@ input[type="button"].btn-block {
     z-index: 2;
     color: #0056b3;
     text-decoration: none;
-    background-color: #e9ecef;
+    background-color: #ecedef;
     border-color: #dee2e6; }
   .page-link:focus {
     z-index: 2;
@@ -4196,7 +4196,7 @@ input[type="button"].btn-block {
 .jumbotron {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
-  background-color: #e9ecef;
+  background-color: #ecedef;
   border-radius: 0.3rem; }
   @media (min-width: 576px) {
     .jumbotron {
@@ -4320,7 +4320,7 @@ input[type="button"].btn-block {
   height: 1rem;
   overflow: hidden;
   font-size: 0.75rem;
-  background-color: #e9ecef;
+  background-color: #ecedef;
   border-radius: 0.25rem; }
 
 .progress-bar {
@@ -4396,7 +4396,7 @@ input[type="button"].btn-block {
     background-color: #f8f9fa; }
   .list-group-item-action:active {
     color: #212529;
-    background-color: #e9ecef; }
+    background-color: #ecedef; }
 
 .list-group-item {
   position: relative;
@@ -8053,7 +8053,7 @@ body {
 .at-background {
   width: 100vw;
   height: 100vh;
-  background: #343a40;
+  background: #ecedef;
   position: fixed;
   left: 0;
   right: 0;
@@ -8219,6 +8219,11 @@ body {
 
 h1, h2, h3, h4, h5, h6, p {
   margin-bottom: 1rem; }
+
+.at-profile-wrapper {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 30px; }
 
 @media (min-width: 576px) and (max-width: 991px) {
   .at-profile-wrapper .at-card {
