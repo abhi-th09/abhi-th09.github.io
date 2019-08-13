@@ -2,6 +2,17 @@
 // body{
 // 	background-color: red;
 // }
+@media(min-width:1200px){
+	body{
+		overflow: hidden;
+	}
+	.at-cv-content{
+		.tab-pane{
+			height: calc(100vh - 130px);
+			overflow-y:auto;
+		}
+	}
+}
 .at-card{
 	background-color: $white;
 	padding: 1.875rem 1.5rem;
@@ -19,8 +30,8 @@
 	padding-bottom: 3rem;
 	.at-cv-content{
 		.tab-pane{
-			height: calc(100vh - 130px);
-			overflow-y:auto;
+			// height: calc(100vh - 130px);
+			// overflow-y:auto;
 			padding-left: 0;
 			padding-right: 0;
 		}

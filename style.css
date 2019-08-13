@@ -8048,8 +8048,7 @@ html {
   font-size: 15px; }
 
 body {
-  margin: 0;
-  overflow: hidden; }
+  margin: 0; }
 
 .at-background {
   width: 100vw;
@@ -8221,6 +8220,13 @@ body {
 h1, h2, h3, h4, h5, h6, p {
   margin-bottom: 1rem; }
 
+@media (min-width: 1200px) {
+  body {
+    overflow: hidden; }
+  .at-cv-content .tab-pane {
+    height: calc(100vh - 130px);
+    overflow-y: auto; } }
+
 .at-card {
   background-color: #fff;
   padding: 1.875rem 1.5rem;
@@ -8237,8 +8243,6 @@ h1, h2, h3, h4, h5, h6, p {
   padding-top: 3rem;
   padding-bottom: 3rem; }
   .at-cv-wrapper .at-cv-content .tab-pane {
-    height: calc(100vh - 130px);
-    overflow-y: auto;
     padding-left: 0;
     padding-right: 0; }
   .at-cv-wrapper .nav-pills .nav-item {
