@@ -8220,13 +8220,6 @@ body {
 h1, h2, h3, h4, h5, h6, p {
   margin-bottom: 1rem; }
 
-@media (min-width: 1200px) {
-  body {
-    overflow: hidden; }
-  .at-cv-content .tab-pane {
-    height: calc(100vh - 130px);
-    overflow-y: auto; } }
-
 @media (min-width: 576px) and (max-width: 991px) {
   .at-profile-wrapper .at-card {
     width: calc(100% - 140px - 30px); } }
@@ -8240,6 +8233,63 @@ h1, h2, h3, h4, h5, h6, p {
   .at-side-prof .at-card {
     margin-top: -5rem;
     padding-top: 6rem; } }
+
+/* -----------------------------------------------------------------
+    - Progress
+----------------------------------------------------------------- */
+.progress {
+  background-color: #F0F0F6;
+  border-radius: 0.25rem;
+  height: 1.5rem;
+  margin-bottom: 1.5rem;
+  overflow: inherit;
+  position: relative;
+  text-align: right; }
+
+@media only screen and (max-width: 580px) {
+  .progress {
+    margin-bottom: 1rem; } }
+
+.progress:last-child {
+  margin-bottom: 0; }
+
+.progress-bar {
+  background-color: #0045FF;
+  background-image: -webkit-gradient(linear, left top, right top, from(#0081ff), to(#0045ff));
+  background-image: -webkit-linear-gradient(left, #0081ff 0%, #0045ff 100%);
+  background-image: -o-linear-gradient(left, #0081ff 0%, #0045ff 100%);
+  background-image: linear-gradient(to right, #0081ff 0%, #0045ff 100%);
+  border-radius: 0.25rem;
+  -webkit-box-shadow: 0 2px 4px rgba(0, 69, 255, 0.15), 0 8px 16px rgba(0, 69, 255, 0.2);
+  box-shadow: 0 2px 4px rgba(0, 69, 255, 0.15), 0 8px 16px rgba(0, 69, 255, 0.2);
+  overflow: hidden;
+  position: relative;
+  width: 0%;
+  z-index: 1; }
+
+.progress .progress-text {
+  display: -webkit-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 100%;
+  padding-left: .8rem;
+  padding-right: .8rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1; }
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .progress-text span:nth-child(2) {
+    float: right; } }
 
 .at-card {
   background-color: #fff;

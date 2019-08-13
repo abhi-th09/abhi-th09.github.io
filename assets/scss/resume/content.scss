@@ -2,17 +2,17 @@
 // body{
 // 	background-color: red;
 // }
-@media(min-width:1200px){
-	body{
-		overflow: hidden;
-	}
-	.at-cv-content{
-		.tab-pane{
-			height: calc(100vh - 130px);
-			overflow-y:auto;
-		}
-	}
-}
+// @media(min-width:1200px){
+// 	body{
+// 		overflow: hidden;
+// 	}
+// 	.at-cv-content{
+// 		.tab-pane{
+// 			height: calc(100vh - 130px);
+// 			overflow-y:auto;
+// 		}
+// 	}
+// }
 
 @media(min-width:576px) and (max-width:991px){
 	.at-profile-wrapper .at-card{
@@ -31,7 +31,56 @@
 		padding-top: 6rem;
 	}
 }
-
+/* -----------------------------------------------------------------
+    - Progress
+----------------------------------------------------------------- */
+.progress {
+	background-color: #F0F0F6;
+	border-radius: $border-radius;
+	height: 1.5rem;
+	margin-bottom: 1.5rem;
+	overflow: inherit;
+	position: relative;
+	text-align: right;
+ }
+ @media only screen and (max-width: 580px) {
+	.progress {
+	  margin-bottom: 1rem;
+	}
+ }
+ .progress:last-child {
+	margin-bottom: 0;
+ }
+ .progress-bar {
+	background-color: #0045FF;
+	background-image: linear-gradient(to right, #0081ff 0%, #0045ff 100%);
+	border-radius: $border-radius;
+	box-shadow: 0 2px 4px rgba(0, 69, 255, 0.15), 0 8px 16px rgba(0, 69, 255, 0.2);
+	overflow: hidden;
+	position: relative;
+	width: 0%;
+	z-index: 1;
+ }
+ .progress .progress-text {
+	display: -webkit-flex;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 100%;
+	padding-left: .8rem;
+	padding-right: .8rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1;
+ }
+ 
+ @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	.progress-text span:nth-child(2) {
+	  float: right;
+	}
+ }
 .at-card{
 	background-color: $white;
 	padding: 1.875rem 1.5rem;
