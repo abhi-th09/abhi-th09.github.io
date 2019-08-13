@@ -8227,6 +8227,20 @@ h1, h2, h3, h4, h5, h6, p {
     height: calc(100vh - 130px);
     overflow-y: auto; } }
 
+@media (min-width: 576px) and (max-width: 991px) {
+  .at-profile-wrapper .at-card {
+    width: calc(100% - 140px - 30px); } }
+
+@media (min-width: 992px) {
+  .at-side-prof .at-card {
+    margin-top: -5rem;
+    padding-top: 6rem; } }
+
+@media (max-width: 575px) {
+  .at-side-prof .at-card {
+    margin-top: -5rem;
+    padding-top: 6rem; } }
+
 .at-card {
   background-color: #fff;
   padding: 1.875rem 1.5rem;
@@ -8380,10 +8394,6 @@ label.menu-open-button {
 .at-name-prof {
   font-size: 0.875rem;
   font-weight: 600; }
-
-.at-side-prof .at-card {
-  margin-top: -5rem;
-  padding-top: 6rem; }
 
 .at-title-1 {
   position: relative;
