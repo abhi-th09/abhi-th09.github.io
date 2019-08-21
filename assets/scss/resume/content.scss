@@ -14,9 +14,7 @@
 // 	}
 // }
 .background.gradient {
-	background: #50a3a2;
-	background: -webkit-linear-gradient(top left,#50a3a2 0,#78cc6d 100%);
-	background: linear-gradient(to bottom right,#50a3a2 0,#78cc6d 100%);
+	background: linear-gradient(to bottom right,#d6d7d9 0,#fff 100%);
 	position: fixed;
 	overflow: hidden;
 	top: 0;
@@ -25,9 +23,7 @@
 	height: 100%;
 }
 .background.gradient {
-	background: #50a3a2;
-	background: -webkit-linear-gradient(top left, #50a3a2 0%, #78cc6d 100%);
-	background: linear-gradient(to bottom right, #50a3a2 0%, #78cc6d 100%);
+	background: linear-gradient(to bottom right, #d6d7d9 0%, #fff 100%);
 }
 .bg-bubbles {
 	position: absolute;
@@ -37,9 +33,7 @@
 	height: 100%;
 }
 .background.gradient {
-	background:#50a3a2;
-	background:-webkit-linear-gradient(top left,#50a3a2 0,#78cc6d 100%);
-	background:linear-gradient(to bottom right,#50a3a2 0,#78cc6d 100%);
+	background: linear-gradient(to bottom right, #d6d7d9 0%, #fff 100%);
 	position:fixed;
 	overflow:hidden;
 	top:0;
@@ -60,7 +54,7 @@
 	display:block;
 	width:80px;
 	height:80px;
-	background-color:rgba(255,255,255,.1);
+	background-color:rgba($primary,.1);
 	bottom:-320px;
 	-webkit-animation:square 50s infinite;
 	animation:square 50s infinite;
@@ -166,7 +160,7 @@
 	bottom: 0;
 	z-index:11;
 	width:100%;
-	background:#d6d6d6;
+	background:#d6d7d9;
 	transform: translateX(0px);
 	overflow: hidden;
 	.cta {
@@ -219,13 +213,13 @@
 		transform: translateX(-26%);
 		width:26%; 
 		z-index:9; 
-		box-shadow: 10px 10px 5px #eaeaea;
+		box-shadow: 0px 10px 5px rgba($dark,0.1);
 	}
 	100% { 
 		transform: translateX(0);
 		width:26%;
 		z-index:9; 
-		box-shadow: 10px 10px 5px #eaeaea;
+		box-shadow: 0px 10px 5px rgba($dark,0.1);
 	}
 }
 .at-profile-wrapper{
@@ -323,6 +317,17 @@
 			padding-right: 0;
 		}
 	}
+	.nav {
+		color: #fff;
+		background-image: linear-gradient(to right, #0081ff 0%, #0045ff 100%);
+		border-radius: 0 4px 2rem 0;
+		width: 500px;
+		max-width: 100%;
+		align-items: center;
+		box-shadow: 0 24px 40px rgba(0, 69, 255, 0.2), 0 8px 16px rgba(0, 69, 255, 0.15);
+		overflow: hidden;
+		margin-bottom: 2rem;
+  	}
 	.nav-pills{
 		.nav-item{
 			margin-right: 1rem;
