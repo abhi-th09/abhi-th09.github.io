@@ -328,17 +328,12 @@
 		overflow: hidden;
 		margin-bottom: 2rem;
   	}
-	.nav-pills{
-		.nav-item{
-			margin-right: 1rem;
-		}
+	.nav{
 		.nav-link{
-			background-color: $white;
-			color: $body-color;
+			opacity: 0.7;
 		}
 		.nav-link.active, show > .nav-link{
-			background-color: $primary;
-			color: $white;
+			opacity: 1;
 		}
 	}
 }

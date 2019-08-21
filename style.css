@@ -8050,6 +8050,9 @@ html {
 body {
   margin: 0; }
 
+a, button {
+  outline: none !important; }
+
 .at-background {
   width: 100vw;
   height: 100vh;
@@ -8572,14 +8575,10 @@ h1, h2, h3, h4, h5, h6, p {
     box-shadow: 0 24px 40px rgba(0, 69, 255, 0.2), 0 8px 16px rgba(0, 69, 255, 0.15);
     overflow: hidden;
     margin-bottom: 2rem; }
-  .at-cv-wrapper .nav-pills .nav-item {
-    margin-right: 1rem; }
-  .at-cv-wrapper .nav-pills .nav-link {
-    background-color: #fff;
-    color: #212529; }
-  .at-cv-wrapper .nav-pills .nav-link.active, .at-cv-wrapper .nav-pills show > .nav-link {
-    background-color: #007bff;
-    color: #fff; }
+  .at-cv-wrapper .nav .nav-link {
+    opacity: 0.7; }
+  .at-cv-wrapper .nav .nav-link.active, .at-cv-wrapper .nav show > .nav-link {
+    opacity: 1; }
 
 .menu-item,
 label.menu-open-button {
